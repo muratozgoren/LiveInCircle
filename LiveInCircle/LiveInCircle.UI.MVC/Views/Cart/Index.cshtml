@@ -1,0 +1,44 @@
+﻿@model MyCart
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed" style="background-image: url(/img/bg-img/bg-4.jpg);">
+    <div class="container" id="sepet">
+
+        <partial name="_tableList" model="@Model" />
+
+    </div>>
+</section>
+
+@section scripts{
+
+    <script>
+
+        function CartUpdate(deger, cid) {
+            $.ajax({
+                type: "GET",
+                url: "/Cart/UpdateToCart",
+                data: { amount: deger, id: cid },
+                success: function (data) {
+                    $("#sepet").html(data);
+                }
+            });
+        }
+
+        function CartDelete(cid) {
+            var cvp = confirm("Albumu silmek istiyor musunuz ?")
+            if (cvp) {
+                $.ajax({
+                    type: "GET",
+                    url: "/Cart/DeleteToCart",
+                    data: { id: cid },
+                    success: function (data) {
+                        $("#sepet").html(data);
+                    }
+                });
+            }
+        }
+    </script>
+}

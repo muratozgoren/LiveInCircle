@@ -1,0 +1,17 @@
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\bin\Debug\netcoreapp3.1\LiveInCircle.DAL.deps.json
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\bin\Debug\netcoreapp3.1\LiveInCircle.DAL.runtimeconfig.json
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\bin\Debug\netcoreapp3.1\LiveInCircle.DAL.runtimeconfig.dev.json
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\bin\Debug\netcoreapp3.1\LiveInCircle.DAL.dll
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\bin\Debug\netcoreapp3.1\LiveInCircle.DAL.pdb
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\bin\Debug\netcoreapp3.1\LiveInCircle.Core.dll
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\bin\Debug\netcoreapp3.1\LiveInCircle.Model.dll
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\bin\Debug\netcoreapp3.1\LiveInCircle.Model.pdb
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\bin\Debug\netcoreapp3.1\LiveInCircle.Core.pdb
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\obj\Debug\netcoreapp3.1\LiveInCircle.DAL.csprojAssemblyReference.cache
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\obj\Debug\netcoreapp3.1\LiveInCircle.DAL.AssemblyInfoInputs.cache
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\obj\Debug\netcoreapp3.1\LiveInCircle.DAL.AssemblyInfo.cs
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\obj\Debug\netcoreapp3.1\LiveInCircle.DAL.csproj.CoreCompileInputs.cache
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\obj\Debug\netcoreapp3.1\LiveInCircle.DAL.csproj.CopyComplete
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\obj\Debug\netcoreapp3.1\LiveInCircle.DAL.dll
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\obj\Debug\netcoreapp3.1\LiveInCircle.DAL.pdb
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.DAL\obj\Debug\netcoreapp3.1\LiveInCircle.DAL.genruntimeconfig.cache

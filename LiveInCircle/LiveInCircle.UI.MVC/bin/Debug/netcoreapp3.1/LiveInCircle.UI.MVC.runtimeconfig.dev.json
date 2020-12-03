@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\MURATUS\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\MURATUS\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Service.ASPWebAPI\\LiveInCircle.Service.ASPWebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.BLL\\LiveInCircle.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.BLL\\LiveInCircle.BLL.csproj",
+        "projectName": "LiveInCircle.BLL",
+        "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.BLL\\LiveInCircle.BLL.csproj",
+        "packagesPath": "C:\\Users\\MURATUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MURATUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Core\\LiveInCircle.Core.csproj": {
+                "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Core\\LiveInCircle.Core.csproj"
+              },
+              "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.DAL\\LiveInCircle.DAL.csproj": {
+                "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.DAL\\LiveInCircle.DAL.csproj"
+              },
+              "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Model\\LiveInCircle.Model.csproj": {
+                "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Model\\LiveInCircle.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Core\\LiveInCircle.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Core\\LiveInCircle.Core.csproj",
+        "projectName": "LiveInCircle.Core",
+        "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Core\\LiveInCircle.Core.csproj",
+        "packagesPath": "C:\\Users\\MURATUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MURATUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.DAL\\LiveInCircle.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.DAL\\LiveInCircle.DAL.csproj",
+        "projectName": "LiveInCircle.DAL",
+        "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.DAL\\LiveInCircle.DAL.csproj",
+        "packagesPath": "C:\\Users\\MURATUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MURATUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Model\\LiveInCircle.Model.csproj": {
+                "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Model\\LiveInCircle.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Model\\LiveInCircle.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Model\\LiveInCircle.Model.csproj",
+        "projectName": "LiveInCircle.Model",
+        "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Model\\LiveInCircle.Model.csproj",
+        "packagesPath": "C:\\Users\\MURATUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MURATUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Core\\LiveInCircle.Core.csproj": {
+                "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Core\\LiveInCircle.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Service.ASPWebAPI\\LiveInCircle.Service.ASPWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Service.ASPWebAPI\\LiveInCircle.Service.ASPWebAPI.csproj",
+        "projectName": "LiveInCircle.Service.ASPWebAPI",
+        "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Service.ASPWebAPI\\LiveInCircle.Service.ASPWebAPI.csproj",
+        "packagesPath": "C:\\Users\\MURATUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.Service.ASPWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MURATUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.BLL\\LiveInCircle.BLL.csproj": {
+                "projectPath": "C:\\Users\\MURATUS\\Desktop\\BitirmeProjesi\\LiveInCircle\\LiveInCircle.BLL\\LiveInCircle.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

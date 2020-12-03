@@ -1,0 +1,12 @@
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\bin\Debug\netcoreapp3.1\LiveInCircle.Model.deps.json
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\bin\Debug\netcoreapp3.1\LiveInCircle.Model.dll
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\bin\Debug\netcoreapp3.1\LiveInCircle.Model.pdb
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\bin\Debug\netcoreapp3.1\LiveInCircle.Core.dll
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\bin\Debug\netcoreapp3.1\LiveInCircle.Core.pdb
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\obj\Debug\netcoreapp3.1\LiveInCircle.Model.csprojAssemblyReference.cache
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\obj\Debug\netcoreapp3.1\LiveInCircle.Model.AssemblyInfoInputs.cache
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\obj\Debug\netcoreapp3.1\LiveInCircle.Model.AssemblyInfo.cs
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\obj\Debug\netcoreapp3.1\LiveInCircle.Model.csproj.CoreCompileInputs.cache
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\obj\Debug\netcoreapp3.1\LiveInCircle.Model.csproj.CopyComplete
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\obj\Debug\netcoreapp3.1\LiveInCircle.Model.dll
+C:\Users\MURATUS\Desktop\BitirmeProjesi\LiveInCircle\LiveInCircle.Model\obj\Debug\netcoreapp3.1\LiveInCircle.Model.pdb

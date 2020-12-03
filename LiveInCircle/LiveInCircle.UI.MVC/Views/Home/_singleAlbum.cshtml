@@ -1,0 +1,20 @@
+﻿@model List<AlbumVM>
+
+
+
+
+    @foreach (AlbumVM item in Model)
+    {
+        <!-- Single Album -->
+        <div class="single-album">
+            <img src="@item.AlbumArtUrl" alt="">
+            <div class="album-info">
+                <a href="#">
+                    <h4>@item.Title</h4>
+                    <h5>@item.ArtistName</h5>
+                </a>
+                <p>@item.Price</p>
+            </div>
+        </div>
+    }
+

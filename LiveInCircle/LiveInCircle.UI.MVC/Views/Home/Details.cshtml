@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+}
+
+<section class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed" style="background-image: url(../../img/bg-img/bg-4.jpg);">
+    <div class="container">
+        <div class="row align-items-end">
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="featured-artist-thumb">
+                    <img id="albumArtUrl" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-7 col-lg-8">
+                <div class="featured-artist-content">
+                    <!-- Section Heading -->
+                    <div class="section-heading white text-left mb-30">
+
+                        <h2 id="title"></h2>
+                        <p id="artistname"></p>
+                        <p id="genreName"></p>
+                    </div>
+                    <p id="price"></p>
+                    <a href="#" onclick="AddToMyCart()" class="btn oneMusic-btn btn-2 m-2">Sepete Ekle <i class="icon-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            var id =@ViewContext.RouteData.Values["id"];
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:61784/api/Album/GetAlbumById/" + id,
+                success: function (data) {
+                    console.log(data);
+                    $("#title").text(data.title);
+                    $("#artistName").text(data.artistName);
+                    $("#genreName").text(data.genreName);
+                    $("#price").text(data.price);
+                    $("#albumArtUrl").attr("src", data.albumArtUrl);
+                }
+            })
+        })
+
+
+        function AddToMyCart() {
+            var id =@ViewContext.RouteData.Values["id"];
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:61784/api/Album/GetCartItemByID/" + id,
+                async: false,
+                success: function (data) {
+                    $.ajax({
+                        type: "POST",
+                        url: "/Cart/AddToCart",
+                        contentType: "application/json; charset=utf-8",
+                        data: JSON.stringify(data),
+                        success: function (data) {
+                            $("#cartButton").html(data);
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+}

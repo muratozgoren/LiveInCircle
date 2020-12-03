@@ -1,0 +1,53 @@
+﻿@model UserVM
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!-- ##### Breadcumb Area Start ##### -->
+<section class="breadcumb-area bg-img bg-overlay" style="background-image: url(/img/bg-img/breadcumb3.jpg);">
+    <div class="bradcumbContent">
+        <p>See what’s new</p>
+        <h2>Register</h2>
+    </div>
+</section>
+<!-- ##### Breadcumb Area End ##### -->
+<!-- ##### Login Area Start ##### -->
+<section class="login-area section-padding-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="login-content">
+                    <h3>Welcome Back</h3>
+                    <!-- Login Form -->
+                    <div class="login-form">
+                        <form asp-controller="Account" asp-action="Register" method="post">
+                            <div class="form-group">
+                                <label>Adınız</label>
+                                <input type="text" name="FirstName" class="form-control" placeholder="Adınızı Giriniz">
+                            </div>
+                            <div class="form-group">
+                                <label>Soyadınız</label>
+                                <input type="text" name="LastName" class="form-control" placeholder="Soyadınızı Giriniz">
+                            </div>
+                            <div class="form-group">
+                                <label>Mail Adresiniz</label>
+                                <input type="email" name="Email" class="form-control" placeholder="Mail Adresinizi Giriniz">
+                            </div>
+                            <div class="form-group">
+                                <label>Şifreniz</label>
+                                <input type="password" name="Password" class="form-control" placeholder="Şifre Giriniz">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Adresiniz</label>
+                                <input type="text" name="Address" class="form-control" placeholder="Adres Giriniz">
+                            </div>
+                            <button type="submit" class="btn oneMusic-btn mt-30">Kayıt Ol</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
